@@ -4,8 +4,6 @@ import org.helpers.utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -36,13 +34,15 @@ public class Locators extends utils {
         Thread.sleep(3000);
         webDriver.findElement(By.cssSelector(".reset-pwd-btn")).click();
         String errorText = webDriver.findElement(By.cssSelector("form p")).getText();
+        String password = getPassword(errorText);
         print(errorText);
+        print(password);
         webDriver.findElement(By.cssSelector("form button:nth-child(1)")).click();
 //        webDriver.findElement(By.cssSelector("//div[@class='forgot-pwd-btn-conainer']/button[1]")).click();
 
         Thread.sleep(1000);
         webDriver.findElement(By.cssSelector("#inputUsername")).sendKeys("rahul");
-        webDriver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
+        webDriver.findElement(By.cssSelector("input[type*='pass']")).sendKeys(password);
         webDriver.findElement(By.xpath("//input[@id='chkboxOne']")).click();
         webDriver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
 
@@ -50,7 +50,16 @@ public class Locators extends utils {
         String successText = webDriver.findElement(By.tagName("p")).getText();
         assertEquals("You are successfully logged in.",successText);
         assertEquals(webDriver.findElement(By.cssSelector("div[class='login-container'] h2")).getText(),"Hello "+name+",");
+        webDriver.findElement(By.xpath("//button[text()='Log Out']")).click();
+
+        Thread.sleep(1000);
+        successText = webDriver.findElement(By.cssSelector("form h1")).getText();
+        assertEquals(successText,"Sign in");
         webDriver.close();
+    }
+
+    public static String getPassword(String str){
+        return str.split("'")[1].split("'")[0];
     }
     
 }
