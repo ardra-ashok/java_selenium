@@ -21,6 +21,7 @@ public class Locators extends utils {
     public void locatorsPractise() throws InterruptedException {
 
         webDriver = new ChromeDriver();
+        String name = "rahul";
         System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         webDriver.get("https://rahulshettyacademy.com/locatorspractice/");
@@ -44,10 +45,12 @@ public class Locators extends utils {
         webDriver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
         webDriver.findElement(By.xpath("//input[@id='chkboxOne']")).click();
         webDriver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
+
         Thread.sleep(1000);
         String successText = webDriver.findElement(By.tagName("p")).getText();
         assertEquals("You are successfully logged in.",successText);
-        webDriver.quit();
+        assertEquals(webDriver.findElement(By.cssSelector("div[class='login-container'] h2")).getText(),"Hello "+name+",");
+        webDriver.close();
     }
     
 }

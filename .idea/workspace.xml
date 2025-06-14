@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/BasicsAndLocators_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +112,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="14" />
+          <line>49</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
