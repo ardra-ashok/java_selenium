@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2$Browsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2$Browsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

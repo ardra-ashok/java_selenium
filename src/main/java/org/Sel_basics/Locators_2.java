@@ -6,10 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
-
 import java.time.Duration;
-
-import static org.testng.AssertJUnit.assertEquals;
 
 
 public class Locators_2 extends utils {
@@ -21,15 +18,27 @@ public class Locators_2 extends utils {
     }
 
     @Test
-    public void locatorsPractise() throws InterruptedException {
+    public void locatorsPractise() {
 
         initializeDriver(Browsers.valueOf(System.getProperty("browserName","CHROME").toUpperCase()));
-        String name = "rahul";
 
         webDriver.get("https://rahulshettyacademy.com/AutomationPractice/");
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
-        print(webDriver.findElement(By.xpath("/html/body/header/a")).getAttribute("href"));
+        print(webDriver.findElement(By.xpath("/html/body/header/a")).getAttribute("href")); // absolute locator
+        print(webDriver.findElement(By.xpath("//header/div/button[1]")).getText()); // relative locator
+        print(webDriver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[2]")).getText()); // sibling to sibling
+//      getting the parent div  //header/div/button[1]/parent::div
+        print(webDriver.findElement(By.xpath("//header/div/button[1]/parent::div/preceding-sibling::a[1]")).getText()); // child to parent
+
+        webDriver.manage().window().fullscreen();
+        webDriver.navigate().to("http://google.com");
+        webDriver.manage().window().maximize();
+        webDriver.navigate().back();
+
+
+
+
 
 
         webDriver.close();
