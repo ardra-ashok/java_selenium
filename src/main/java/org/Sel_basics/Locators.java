@@ -4,6 +4,7 @@ import org.helpers.utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -13,16 +14,21 @@ import static org.testng.AssertJUnit.assertEquals;
 
 public class Locators extends utils {
 
-        static WebDriver webDriver;
+    static WebDriver webDriver;
+    public enum Browsers{
+        CHROME,
+        FIREFOX
+    }
        
     @Test
     public void locatorsPractise() throws InterruptedException {
 
-        webDriver = new ChromeDriver();
+        initializeDriver(Browsers.valueOf(System.getProperty("browserName","CHROME").toUpperCase()));
         String name = "rahul";
-        System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
-        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+
         webDriver.get("https://rahulshettyacademy.com/locatorspractice/");
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+
         print(webDriver.getTitle());
         webDriver.findElement(By.linkText("Forgot your password?")).click();
 
@@ -61,5 +67,16 @@ public class Locators extends utils {
     public static String getPassword(String str){
         return str.split("'")[1].split("'")[0];
     }
-    
+
+    private static void initializeDriver(Browsers browsers){
+        switch (browsers){
+            case CHROME: webDriver = new ChromeDriver();
+                System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
+                break;
+            case FIREFOX: webDriver = new FirefoxDriver();
+                System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
+                break;
+
+        }
+    }
 }
