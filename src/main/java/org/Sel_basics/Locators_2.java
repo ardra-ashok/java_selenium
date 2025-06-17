@@ -36,11 +36,6 @@ public class Locators_2 extends utils {
         webDriver.manage().window().maximize();
         webDriver.navigate().back();
 
-
-
-
-
-
         webDriver.close();
     }
 
@@ -48,10 +43,10 @@ public class Locators_2 extends utils {
     private static void initializeDriver(Browsers browsers){
         switch (browsers){
             case CHROME: webDriver = new ChromeDriver();
-                System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
+//                System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
                 break;
             case FIREFOX: webDriver = new FirefoxDriver();
-                System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
+//                System.setProperty("webdriver.gecko.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/geckodriver");
                 break;
 
         }
