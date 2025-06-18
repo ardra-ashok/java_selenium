@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/StaticDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/DropDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Locators_2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.DropDown.DropDown.executor": "Run",
     "TestNG.Locators.locatorsPractise.executor": "Run",
     "TestNG.Locators_2.locatorsPractise.executor": "Run",
     "TestNG.StaticDropDown.StaticDropDown.executor": "Run",
@@ -50,7 +48,25 @@
     "last_opened_file_path": "/Users/aashok/IdeaProjects/java_selenium"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.StaticDropDown.StaticDropDown">
+  <component name="RunManager" selected="TestNG.DropDown.DropDown">
+    <configuration name="DropDown.DropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Sel_basics" />
+      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.DropDown" />
+      <option name="METHOD_NAME" value="DropDown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Locators_2.locatorsPractise" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <shortenClasspath name="NONE" />
@@ -128,12 +144,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.DropDown.DropDown" />
       <item itemvalue="TestNG.StaticDropDown.StaticDropDown" />
       <item itemvalue="TestNG.Locators.locatorsPractise" />
       <item itemvalue="TestNG.Locators_2.locatorsPractise" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DropDown.DropDown" />
         <item itemvalue="TestNG.StaticDropDown.StaticDropDown" />
         <item itemvalue="TestNG.Locators_2.locatorsPractise" />
         <item itemvalue="TestNG.Locators.locatorsPractise" />
@@ -166,8 +184,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/StaticDropDown.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="20" />
+          <line>46</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
