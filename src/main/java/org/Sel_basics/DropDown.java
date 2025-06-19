@@ -11,6 +11,9 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
+import static org.testng.Assert.*;
+
+
 public class DropDown extends utils {
 
     static WebDriver webDriver;
@@ -41,10 +44,10 @@ public class DropDown extends utils {
                 elem.click();
         }
 
-        print(webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+        assertFalse(webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
         webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
-        print(webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
-        print(webDriver.findElements(By.cssSelector("input[type='checkbox']")).size());
+        assertTrue(webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+        assertEquals(6,webDriver.findElements(By.cssSelector("input[type='checkbox']")).size());
         webDriver.close();
     }
 
