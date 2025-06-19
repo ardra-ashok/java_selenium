@@ -35,12 +35,16 @@ public class DropDown extends utils {
         webDriver.navigate().to("https://rahulshettyacademy.com/dropdownsPractise/");
         webDriver.findElement(By.id("autosuggest")).sendKeys("ind");
         Thread.sleep(2000);
-
         List<WebElement> elements = webDriver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
         for( WebElement elem: elements){
             if(elem.getText().equalsIgnoreCase("india"))
                 elem.click();
         }
+
+        print(webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+        webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
+        print(webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+        print(webDriver.findElements(By.cssSelector("input[type='checkbox']")).size());
         webDriver.close();
     }
 

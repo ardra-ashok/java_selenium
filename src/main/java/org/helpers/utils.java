@@ -8,7 +8,7 @@ import java.time.Duration;
 
 public class utils {
 
-    public static void print(String str){
+    public static <T> void print(T str){
         System.out.println(str);
     }
 
