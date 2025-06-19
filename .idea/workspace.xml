@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-automation-framework_1/.idea/test-automation-framework_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/helpers/WebDriverHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/helpers/WebDriverHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +44,83 @@
     <option name="showMembers" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.DropDown.DropDown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Locators.locatorsPractise.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Locators_2.locatorsPractise.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.StaticDropDown.StaticDropDown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.seleniumBasic_1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.selenium_1.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aashok/IdeaProjects/java_selenium&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.Calender.calendarExample.executor": "Run",
+    "Maven.java_selenium [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Calender.calendarExample.executor": "Run",
+    "TestNG.CheckBox.checkBoxExample.executor": "Run",
+    "TestNG.DropDown.DropDown.executor": "Run",
+    "TestNG.Locators.locatorsPractise.executor": "Run",
+    "TestNG.Locators_2.locatorsPractise.executor": "Run",
+    "TestNG.StaticDropDown.StaticDropDown.executor": "Run",
+    "TestNG.seleniumBasic_1.executor": "Run",
+    "TestNG.selenium_1.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/aashok/IdeaProjects/java_selenium"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.DropDown.DropDown">
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Calender.calendarExample">
+    <configuration name="Calender.calendarExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Sel_basics" />
+      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.Calender" />
+      <option name="METHOD_NAME" value="calendarExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calender.calendarExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Sel_basics" />
+      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.Calender" />
+      <option name="METHOD_NAME" value="calendarExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckBox.checkBoxExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Sel_basics" />
+      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.CheckBox" />
+      <option name="METHOD_NAME" value="checkBoxExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DropDown.DropDown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
@@ -60,64 +133,6 @@
       <option name="MAIN_CLASS_NAME" value="org.Sel_basics.DropDown" />
       <option name="METHOD_NAME" value="DropDown" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Locators_2.locatorsPractise" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_selenium" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Sel_basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.Locators_2" />
-      <option name="METHOD_NAME" value="locatorsPractise" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -DbrowserName=&quot;firefox&quot;" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Locators.locatorsPractise" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_selenium" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Sel_basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.Locators" />
-      <option name="METHOD_NAME" value="locatorsPractise" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -DbrowserName=&quot;chrome&quot;" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,17 +158,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Calender.calendarExample" />
+      <item itemvalue="TestNG.Calender.calendarExample" />
+      <item itemvalue="TestNG.CheckBox.checkBoxExample" />
       <item itemvalue="TestNG.DropDown.DropDown" />
       <item itemvalue="TestNG.StaticDropDown.StaticDropDown" />
-      <item itemvalue="TestNG.Locators.locatorsPractise" />
-      <item itemvalue="TestNG.Locators_2.locatorsPractise" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Calender.calendarExample" />
+        <item itemvalue="TestNG.Calender.calendarExample" />
+        <item itemvalue="TestNG.CheckBox.checkBoxExample" />
         <item itemvalue="TestNG.DropDown.DropDown" />
         <item itemvalue="TestNG.StaticDropDown.StaticDropDown" />
-        <item itemvalue="TestNG.Locators_2.locatorsPractise" />
-        <item itemvalue="TestNG.Locators.locatorsPractise" />
       </list>
     </recent_temporary>
   </component>
@@ -171,11 +188,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/Locators.java</url>
           <line>58</line>
@@ -195,6 +207,30 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/DropDown.java</url>
           <line>46</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/CheckBox.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/CheckBox.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java</url>
+          <line>18</line>
+          <properties class="org.Sel_basics.Calender" method="calendarExample">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

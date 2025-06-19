@@ -11,7 +11,7 @@ import java.time.Duration;
 public class WebDriverHandler {
     private static WebDriver webDriver;
 
-    public static void navigateTo(String url) {
+    public void navigateTo(String url) {
         getDriver();
         webDriver.get(url);
     }
@@ -49,7 +49,12 @@ public class WebDriverHandler {
     public WebElement findElement(By by){
         return getDriver().findElement(by);
     }
-
+    public void webDriverWait(int duration){
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(duration));
+    }
+    public void closeDriver(){
+        getDriver().close();
+    }
 
 }
 

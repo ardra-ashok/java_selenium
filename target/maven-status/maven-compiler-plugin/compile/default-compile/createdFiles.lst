@@ -1,12 +1,12 @@
-org/Sel_basics/StaticDropDown.class
 org/Sel_basics/Locators_2.class
 org/Sel_basics/Locators_2$Browsers.class
 org/Sel_basics/StaticDropDown$Browsers.class
-org/Sel_basics/BasicsAndLocators_1.class
-org/Sel_basics/Locators$Browsers.class
-org/Sel_basics/Locators_2$1.class
 org/Sel_basics/StaticDropDown$1.class
 org/helpers/utils.class
 org/Sel_basics/Locators$1.class
+org/Sel_basics/StaticDropDown.class
+org/Sel_basics/BasicsAndLocators_1.class
+org/Sel_basics/Locators$Browsers.class
+org/Sel_basics/Locators_2$1.class
 org/Sel_basics/Locators.class
 org/helpers/WebDriverHandler.class
