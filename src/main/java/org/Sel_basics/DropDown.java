@@ -1,14 +1,17 @@
 package org.Sel_basics;
 
+import org.helpers.utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.List;
 
-public class DropDown {
+public class DropDown extends utils {
 
     static WebDriver webDriver;
 
@@ -18,14 +21,26 @@ public class DropDown {
     }
 
     @Test
-    public void DropDown() {
+    public void DropDown() throws InterruptedException {
 
         initializeDriver(Locators_2.Browsers.valueOf(System.getProperty("browserName", "CHROME").toUpperCase()));
         webDriver.get("https://www.spicejet.com");
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         webDriver.findElement(By.xpath("(//div[contains(text(),'From')])[1]/following-sibling::div")).click();
+//        webDriver.findElement(By.xpath("(//div[contains(text(),'AMD')])[1]/parent::div/parent::div")).click();
         webDriver.findElement(By.xpath("(//div[contains(text(),'AMD')])[1]/parent::div/parent::div")).click();
         webDriver.findElement(By.xpath("(//div[contains(text(),'KQH')])[1]/parent::div/parent::div")).click();
+
+//        AutoSuggestive
+        webDriver.navigate().to("https://rahulshettyacademy.com/dropdownsPractise/");
+        webDriver.findElement(By.id("autosuggest")).sendKeys("ind");
+        Thread.sleep(2000);
+
+        List<WebElement> elements = webDriver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
+        for( WebElement elem: elements){
+            if(elem.getText().equalsIgnoreCase("india"))
+                elem.click();
+        }
         webDriver.close();
     }
 
