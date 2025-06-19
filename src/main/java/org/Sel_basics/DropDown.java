@@ -48,6 +48,8 @@ public class DropDown extends utils {
         webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
         assertTrue(webDriver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
         assertEquals(6,webDriver.findElements(By.cssSelector("input[type='checkbox']")).size());
+
+
         webDriver.close();
     }
 

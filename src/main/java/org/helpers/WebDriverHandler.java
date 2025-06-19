@@ -53,7 +53,7 @@ public class WebDriverHandler {
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(duration));
     }
     public void closeDriver(){
-        getDriver().close();
+        getDriver().quit();
     }
 
 }

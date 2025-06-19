@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test-automation-framework_1/.idea/test-automation-framework_1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/DropDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Calender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Calender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/DropDown$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/DropDown$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/DropDown.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/helpers/WebDriverHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/helpers/WebDriverHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,17 +216,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java</url>
-          <line>18</line>
-          <properties class="org.Sel_basics.Calender" method="calendarExample">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="31" />
+          <line>25</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
