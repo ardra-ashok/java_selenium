@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/e2e.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test-automation-framework_1/.idea/test-automation-framework_1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/DropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/Calender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/Calender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/DropDown$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/DropDown$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Sel_basics/DropDown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/helpers/WebDriverHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/helpers/WebDriverHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-06-20T00-22-04_352-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-06-20T00-22-04_352-jvmRun1.dumpstream" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +47,11 @@
     "TestNG.Calender.calendarExample.executor": "Run",
     "TestNG.CheckBox.checkBoxExample.executor": "Run",
     "TestNG.DropDown.DropDown.executor": "Run",
+    "TestNG.Excercise.Excerice.executor": "Run",
     "TestNG.Locators.locatorsPractise.executor": "Run",
     "TestNG.Locators_2.locatorsPractise.executor": "Run",
     "TestNG.StaticDropDown.StaticDropDown.executor": "Run",
+    "TestNG.e2e.e2eExample.executor": "Run",
     "TestNG.seleniumBasic_1.executor": "Run",
     "TestNG.selenium_1.executor": "Run",
     "git-widget-placeholder": "main",
@@ -64,12 +64,12 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Calender.calendarExample">
+  <component name="RunManager" selected="TestNG.e2e.e2eExample">
     <configuration name="Calender.calendarExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="PATTERN" value="org.Excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +85,7 @@
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="PATTERN" value="org.Excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +103,7 @@
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="PATTERN" value="org.Excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,17 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown.DropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Excercise.Excerice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="PATTERN" value="org.Excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.DropDown" />
-      <option name="METHOD_NAME" value="DropDown" />
+      <option name="MAIN_CLASS_NAME" value="org.Excercise.Excercise" />
+      <option name="METHOD_NAME" value="Excerice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticDropDown.StaticDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="e2e.e2eExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.StaticDropDown" />
-      <option name="METHOD_NAME" value="StaticDropDown" />
+      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.e2e" />
+      <option name="METHOD_NAME" value="e2eExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,18 +155,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Calender.calendarExample" />
+      <item itemvalue="TestNG.Excercise.Excerice" />
+      <item itemvalue="TestNG.e2e.e2eExample" />
       <item itemvalue="TestNG.Calender.calendarExample" />
       <item itemvalue="TestNG.CheckBox.checkBoxExample" />
-      <item itemvalue="TestNG.DropDown.DropDown" />
-      <item itemvalue="TestNG.StaticDropDown.StaticDropDown" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.e2e.e2eExample" />
+        <item itemvalue="TestNG.Excercise.Excerice" />
         <item itemvalue="JUnit.Calender.calendarExample" />
         <item itemvalue="TestNG.Calender.calendarExample" />
         <item itemvalue="TestNG.CheckBox.checkBoxExample" />
-        <item itemvalue="TestNG.DropDown.DropDown" />
-        <item itemvalue="TestNG.StaticDropDown.StaticDropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -216,8 +216,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/Calender.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="33" />
+          <line>27</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Excercise/Excercise.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/e2e.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
