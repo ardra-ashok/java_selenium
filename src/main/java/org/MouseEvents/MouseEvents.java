@@ -16,8 +16,8 @@ public class MouseEvents {
     @Test
     public void Actions(){
         WebDriver webDriver = new ChromeDriver();
-        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-//        System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        System.setProperty("webdriver.chrome.driver", "/Users/aashok/IdeaProjects/java_selenium/supportData/drivers/chromedriver");
 
         webDriver.get("https://www.amazon.com");
         webDriver.findElement(By.xpath("//button[@type='submit']")).click();
@@ -29,6 +29,6 @@ public class MouseEvents {
         actions.moveToElement(webDriver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
         actions.moveToElement(webDriver.findElement(By.cssSelector("[id='nav-link-accountList']"))).contextClick().build().perform();
 
-        webDriver.close();
+        webDriver.quit();
     }
 }
