@@ -10,10 +10,10 @@ import java.time.Duration;
 
 import static org.testng.AssertJUnit.*;
 
-public class Alerts  extends utils {
+public class Alerts extends utils {
 
     @Test
-    public void Alerts(){
+    public void Alerts() {
         WebDriver webDriver = new ChromeDriver();
 
         webDriver.get("https://rahulshettyacademy.com/AutomationPractice/");

@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/windowHandles/Frames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/windowHandles/WindowHandles.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test-automation-framework_1/.idea/test-automation-framework_1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/e2e.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +49,18 @@
     "TestNG.Calender.calendarExample.executor": "Run",
     "TestNG.CheckBox.checkBoxExample.executor": "Run",
     "TestNG.DropDown.DropDown.executor": "Run",
+    "TestNG.Ecommerce.eCommerce.executor": "Run",
     "TestNG.Excercise.Excerice.executor": "Run",
+    "TestNG.Explicitwait.login.executor": "Run",
+    "TestNG.Frames.FramesTest.executor": "Run",
     "TestNG.Locators.locatorsPractise.executor": "Run",
     "TestNG.Locators_2.locatorsPractise.executor": "Run",
+    "TestNG.MouseEvents.Actions.executor": "Run",
     "TestNG.StaticDropDown.StaticDropDown.executor": "Run",
+    "TestNG.WindowHandles.getWindowHandles.executor": "Run",
+    "TestNG.WindowHandles.windowHandles.executor": "Run",
     "TestNG.e2e.e2eExample.executor": "Run",
+    "TestNG.loginPage.login.executor": "Run",
     "TestNG.seleniumBasic_1.executor": "Run",
     "TestNG.selenium_1.executor": "Run",
     "git-widget-placeholder": "main",
@@ -61,34 +73,18 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Alerts.Alerts">
-    <configuration name="Calender.calendarExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.NestedFrames.Iframes">
+    <configuration name="Frames.FramesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Excercise.*" />
+          <option name="PATTERN" value="org.windowHandles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.Calender" />
-      <option name="METHOD_NAME" value="calendarExample" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Alerts.Alerts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Sel_basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.Alerts" />
-      <option name="METHOD_NAME" value="Alerts" />
+      <option name="PACKAGE_NAME" value="org.windowHandles" />
+      <option name="MAIN_CLASS_NAME" value="org.windowHandles.Frames" />
+      <option name="METHOD_NAME" value="FramesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calender.calendarExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NestedFrames.Iframes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
@@ -104,9 +100,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.Calender" />
-      <option name="METHOD_NAME" value="calendarExample" />
+      <option name="PACKAGE_NAME" value="org.Excercise" />
+      <option name="MAIN_CLASS_NAME" value="org.Excercise.NestedFrames" />
+      <option name="METHOD_NAME" value="Iframes" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,7 +110,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Excercise.Excerice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowHandles.getWindowHandles" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.windowHandles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.windowHandles" />
+      <option name="MAIN_CLASS_NAME" value="org.windowHandles.WindowHandles" />
+      <option name="METHOD_NAME" value="getWindowHandles" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowHandles.windowHandles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
@@ -122,9 +136,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Excercise.Excercise" />
-      <option name="METHOD_NAME" value="Excerice" />
+      <option name="PACKAGE_NAME" value="org.Excercise" />
+      <option name="MAIN_CLASS_NAME" value="org.Excercise.WindowHandles" />
+      <option name="METHOD_NAME" value="windowHandles" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,17 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="e2e.e2eExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="loginPage.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Sel_basics.*" />
+          <option name="PATTERN" value="org.Excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Sel_basics" />
-      <option name="MAIN_CLASS_NAME" value="org.Sel_basics.e2e" />
-      <option name="METHOD_NAME" value="e2eExample" />
+      <option name="PACKAGE_NAME" value="org.e2e" />
+      <option name="MAIN_CLASS_NAME" value="org.Excercise.loginPage" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Calender.calendarExample" />
-      <item itemvalue="TestNG.Alerts.Alerts" />
-      <item itemvalue="TestNG.Excercise.Excerice" />
-      <item itemvalue="TestNG.e2e.e2eExample" />
-      <item itemvalue="TestNG.Calender.calendarExample" />
+      <item itemvalue="TestNG.Frames.FramesTest" />
+      <item itemvalue="TestNG.NestedFrames.Iframes" />
+      <item itemvalue="TestNG.WindowHandles.getWindowHandles" />
+      <item itemvalue="TestNG.WindowHandles.windowHandles" />
+      <item itemvalue="TestNG.loginPage.login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Alerts.Alerts" />
-        <item itemvalue="TestNG.e2e.e2eExample" />
-        <item itemvalue="TestNG.Excercise.Excerice" />
-        <item itemvalue="JUnit.Calender.calendarExample" />
-        <item itemvalue="TestNG.Calender.calendarExample" />
+        <item itemvalue="TestNG.NestedFrames.Iframes" />
+        <item itemvalue="TestNG.Frames.FramesTest" />
+        <item itemvalue="TestNG.WindowHandles.windowHandles" />
+        <item itemvalue="TestNG.WindowHandles.getWindowHandles" />
+        <item itemvalue="TestNG.loginPage.login" />
       </list>
     </recent_temporary>
   </component>
@@ -222,14 +236,29 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/e2e.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/e2e/e2e.java</url>
           <line>27</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/Sel_basics/Alerts.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/e2e/Ecommerce.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Excercise/loginPage.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/windowHandles/WindowHandles.java</url>
           <line>21</line>
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
