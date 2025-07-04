@@ -5,14 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/windowHandles/Frames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/windowHandles/WindowHandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-automation-framework_1/.idea/test-automation-framework_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Excercise/qaClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/TestNG_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/TestNG_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/TestNG_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/TestNG_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_Listeners/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestNG_Annotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestNG_Annotations_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_dep.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playwright_Java/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Playwright_Java/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playwright_Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Playwright_Java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playwright_Java/src/main/java/org/example/MaxWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/Basics_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/Basics_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/DragDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/DragDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/LongPress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/ScrollTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/ScrollTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/Swipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/Swipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/appPackageAndAppActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Basics/appPackageAndAppActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Ecommerce/Ecommerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Ecommerce/Ecommerce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Helpers/MobileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Helpers/MobileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/javaBasics/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/javaBasics/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sel_basics/Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/WebDriverHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpers/utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Sel_basics/e2e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +63,10 @@
     "Maven.java_selenium [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/aashok/IdeaProjects/java_selenium/testng.xml.executor": "Run",
+    "TestNG./Users/aashok/IdeaProjects/java_selenium/testng_1.xml.executor": "Run",
+    "TestNG./Users/aashok/IdeaProjects/java_selenium/testng_2.xml.executor": "Run",
+    "TestNG./Users/aashok/IdeaProjects/java_selenium/testng_dep.xml.executor": "Run",
     "TestNG.Alerts.Alerts.executor": "Run",
     "TestNG.Calender.calendarExample.executor": "Run",
     "TestNG.CheckBox.checkBoxExample.executor": "Run",
@@ -57,34 +79,45 @@
     "TestNG.Locators_2.locatorsPractise.executor": "Run",
     "TestNG.MouseEvents.Actions.executor": "Run",
     "TestNG.StaticDropDown.StaticDropDown.executor": "Run",
+    "TestNG.TestNG_1.executor": "Run",
+    "TestNG.TestNG_1.testNG_learning.executor": "Run",
+    "TestNG.TestNG_1.testNG_learnings.executor": "Run",
+    "TestNG.TestNG_Annotations_1.dependent_2.executor": "Run",
     "TestNG.WindowHandles.getWindowHandles.executor": "Run",
     "TestNG.WindowHandles.windowHandles.executor": "Run",
     "TestNG.e2e.e2eExample.executor": "Run",
     "TestNG.loginPage.login.executor": "Run",
+    "TestNG.qaClick.QA_click.executor": "Debug",
     "TestNG.seleniumBasic_1.executor": "Run",
     "TestNG.selenium_1.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/aashok/IdeaProjects/java_selenium"
+    "last_opened_file_path": "/Users/aashok/IdeaProjects/java_selenium",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NestedFrames.Iframes">
-    <configuration name="Frames.FramesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.qaClick.QA_click">
+    <configuration name="TestNG_Annotations_1.dependent_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.windowHandles.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.windowHandles" />
-      <option name="MAIN_CLASS_NAME" value="org.windowHandles.Frames" />
-      <option name="METHOD_NAME" value="FramesTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestNG_Annotations_1" />
+      <option name="METHOD_NAME" value="dependent_2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,7 +125,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedFrames.Iframes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/aashok/IdeaProjects/java_selenium/testng_1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_1.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/aashok/IdeaProjects/java_selenium/testng_2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/aashok/IdeaProjects/java_selenium/testng_dep.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_dep.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="qaClick.QA_click" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
@@ -101,62 +164,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.Excercise" />
-      <option name="MAIN_CLASS_NAME" value="org.Excercise.NestedFrames" />
-      <option name="METHOD_NAME" value="Iframes" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowHandles.getWindowHandles" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.windowHandles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.windowHandles" />
-      <option name="MAIN_CLASS_NAME" value="org.windowHandles.WindowHandles" />
-      <option name="METHOD_NAME" value="getWindowHandles" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowHandles.windowHandles" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Excercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.Excercise" />
-      <option name="MAIN_CLASS_NAME" value="org.Excercise.WindowHandles" />
-      <option name="METHOD_NAME" value="windowHandles" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="loginPage.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Excercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.e2e" />
-      <option name="MAIN_CLASS_NAME" value="org.Excercise.loginPage" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="org.Excercise.qaClick" />
+      <option name="METHOD_NAME" value="QA_click" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,19 +174,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Frames.FramesTest" />
-      <item itemvalue="TestNG.NestedFrames.Iframes" />
-      <item itemvalue="TestNG.WindowHandles.getWindowHandles" />
-      <item itemvalue="TestNG.WindowHandles.windowHandles" />
-      <item itemvalue="TestNG.loginPage.login" />
+      <item itemvalue="TestNG./Users/aashok/IdeaProjects/java_selenium/testng_1.xml" />
+      <item itemvalue="TestNG./Users/aashok/IdeaProjects/java_selenium/testng_2.xml" />
+      <item itemvalue="TestNG./Users/aashok/IdeaProjects/java_selenium/testng_dep.xml" />
+      <item itemvalue="TestNG.TestNG_Annotations_1.dependent_2" />
+      <item itemvalue="TestNG.qaClick.QA_click" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NestedFrames.Iframes" />
-        <item itemvalue="TestNG.Frames.FramesTest" />
-        <item itemvalue="TestNG.WindowHandles.windowHandles" />
-        <item itemvalue="TestNG.WindowHandles.getWindowHandles" />
-        <item itemvalue="TestNG.loginPage.login" />
+        <item itemvalue="TestNG.qaClick.QA_click" />
+        <item itemvalue="TestNG./Users/aashok/IdeaProjects/java_selenium/testng_dep.xml" />
+        <item itemvalue="TestNG.TestNG_Annotations_1.dependent_2" />
+        <item itemvalue="TestNG./Users/aashok/IdeaProjects/java_selenium/testng_2.xml" />
+        <item itemvalue="TestNG./Users/aashok/IdeaProjects/java_selenium/testng_1.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +269,17 @@
           <line>21</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Excercise/qaClick.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_selenium$qaClick_QA_click.ic" NAME="qaClick.QA_click Coverage Results" MODIFIED="1751546258906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.Excercise.*</FILTER>
+    </SUITE>
   </component>
 </project>

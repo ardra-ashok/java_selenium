@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Grouping" parallel="tests" thread-count="2">-->
+<suite name="Grouping">
+    <listeners>
+        <listener class-name="TestNG_Listeners.Listeners"/>
+    </listeners>
+    <parameter name="testKey" value="testParams"/>
+    <test name="test">
+        <groups>
+            <run>
+                <!--                <include name="smoke"/>-->
+                <exclude name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.TestNG_Annotations_1"/>
+        </classes>
+    </test>
+
+</suite>
