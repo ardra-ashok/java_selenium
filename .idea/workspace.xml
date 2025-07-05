@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Excercise/AutoSuggestiveDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Excercise/WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Misc_cert/Broken_link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Misc_cert/SSLCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/streams/StreamExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel4/Multi_Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel4/Sel_4_Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/streams/filterStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/streams/webTable_Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Playwright_Java/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Playwright_Java/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Playwright_Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Playwright_Java/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Playwright_Java/src/main/java/org/example/MaxWindow.java" beforeDir="false" />
@@ -23,10 +22,9 @@
       <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Helpers/MobileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Helpers/MobileHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/javaBasics/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/javaBasics/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Excercise/Calender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Excercise/Calender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/MouseEvents/MouseEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/MouseEvents/MouseEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Excercise/QA_click_ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Excercise/QA_click_ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Misc_cert/Broken_link.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Misc_cert/Broken_link.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Misc_cert/Max_mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Misc_cert/Max_mode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/MouseEvents/MouseEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/MouseEvents/MouseEvents.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.filterStream.executor": "Run",
     "JUnit.Calender.calendarExample.executor": "Run",
     "Maven.java_selenium [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -80,6 +79,7 @@
     "TestNG.MouseEvents.Actions.executor": "Run",
     "TestNG.QA_click_ex1.Qa_click_ex.executor": "Run",
     "TestNG.SSLCheck.sslCheck.executor": "Run",
+    "TestNG.Sel_4_Locators.relLocators.executor": "Run",
     "TestNG.StaticDropDown.StaticDropDown.executor": "Run",
     "TestNG.StreamExamples.streamFilter.executor": "Run",
     "TestNG.TestNG_1.executor": "Run",
@@ -94,6 +94,7 @@
     "TestNG.qaClick.QA_click.executor": "Run",
     "TestNG.seleniumBasic_1.executor": "Run",
     "TestNG.selenium_1.executor": "Run",
+    "TestNG.webTable_Sorting.webTable_Sort.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/aashok/IdeaProjects/java_selenium",
@@ -110,21 +111,16 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Broken_link.broken_links">
-    <configuration name="AutoSuggestiveDropDown.autoSuggestDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Sel_4_Locators.relLocators">
+    <configuration name="filterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.streams.filterStream" />
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Excercise.*" />
+          <option name="PATTERN" value="org.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Excercise" />
-      <option name="MAIN_CLASS_NAME" value="org.Excercise.AutoSuggestiveDropDown" />
-      <option name="METHOD_NAME" value="autoSuggestDropDown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,17 +161,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SSLCheck.sslCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sel_4_Locators.relLocators" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Misc_cert.*" />
+          <option name="PATTERN" value="org.Sel4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Misc_cert" />
-      <option name="MAIN_CLASS_NAME" value="org.Misc_cert.SSLCheck" />
-      <option name="METHOD_NAME" value="sslCheck" />
+      <option name="PACKAGE_NAME" value="org.Sel4_Locators" />
+      <option name="MAIN_CLASS_NAME" value="org.Sel4.Sel_4_Locators" />
+      <option name="METHOD_NAME" value="relLocators" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -183,7 +179,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExamples.streamFilter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="webTable_Sorting.webTable_Sort" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
@@ -192,8 +188,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.streams" />
-      <option name="MAIN_CLASS_NAME" value="org.streams.StreamExamples" />
-      <option name="METHOD_NAME" value="streamFilter" />
+      <option name="MAIN_CLASS_NAME" value="org.streams.webTable_Sorting" />
+      <option name="METHOD_NAME" value="webTable_Sort" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -202,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AutoSuggestiveDropDown.autoSuggestDropDown" />
+      <item itemvalue="Application.filterStream" />
       <item itemvalue="TestNG.Broken_link.broken_links" />
       <item itemvalue="TestNG.Max_mode.max_mode" />
-      <item itemvalue="TestNG.SSLCheck.sslCheck" />
-      <item itemvalue="TestNG.StreamExamples.streamFilter" />
+      <item itemvalue="TestNG.Sel_4_Locators.relLocators" />
+      <item itemvalue="TestNG.webTable_Sorting.webTable_Sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Sel_4_Locators.relLocators" />
+        <item itemvalue="Application.filterStream" />
+        <item itemvalue="TestNG.webTable_Sorting.webTable_Sort" />
         <item itemvalue="TestNG.Broken_link.broken_links" />
         <item itemvalue="TestNG.Max_mode.max_mode" />
-        <item itemvalue="TestNG.SSLCheck.sslCheck" />
-        <item itemvalue="TestNG.StreamExamples.streamFilter" />
-        <item itemvalue="TestNG.AutoSuggestiveDropDown.autoSuggestDropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -301,6 +297,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/Excercise/AutoSuggestiveDropDown.java</url>
           <line>23</line>
           <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/streams/webTable_Sorting.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
