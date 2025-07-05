@@ -7,8 +7,10 @@
     <list default="true" id="5cfd5d27-1705-43d8-b764-e62eab440785" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel4/Multi_Windows.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/Sel4/Sel_4_Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/streams/filterStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/streams/webTable_Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testng/child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testng/helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testng/helper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testng/parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Playwright_Java/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Playwright_Java/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Playwright_Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Playwright_Java/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Playwright_Java/src/main/java/org/example/MaxWindow.java" beforeDir="false" />
@@ -22,9 +24,6 @@
       <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Helpers/MobileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Helpers/MobileHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/javaBasics/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/javaBasics/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Misc_cert/Broken_link.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Misc_cert/Broken_link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Misc_cert/Max_mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Misc_cert/Max_mode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/MouseEvents/MouseEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/MouseEvents/MouseEvents.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +76,7 @@
     "TestNG.Locators_2.locatorsPractise.executor": "Run",
     "TestNG.Max_mode.max_mode.executor": "Run",
     "TestNG.MouseEvents.Actions.executor": "Run",
+    "TestNG.Multi_Windows.multiWindow.executor": "Run",
     "TestNG.QA_click_ex1.Qa_click_ex.executor": "Run",
     "TestNG.SSLCheck.sslCheck.executor": "Run",
     "TestNG.Sel_4_Locators.relLocators.executor": "Run",
@@ -89,6 +89,7 @@
     "TestNG.WebTables.webTables.executor": "Debug",
     "TestNG.WindowHandles.getWindowHandles.executor": "Run",
     "TestNG.WindowHandles.windowHandles.executor": "Run",
+    "TestNG.child.test.executor": "Run",
     "TestNG.e2e.e2eExample.executor": "Run",
     "TestNG.loginPage.login.executor": "Run",
     "TestNG.qaClick.QA_click.executor": "Run",
@@ -111,7 +112,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Sel_4_Locators.relLocators">
+  <component name="RunManager" selected="TestNG.child.test">
     <configuration name="filterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.streams.filterStream" />
       <module name="java_selenium" />
@@ -125,35 +126,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Broken_link.broken_links" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Multi_Windows.multiWindow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Misc_cert.*" />
+          <option name="PATTERN" value="org.Sel4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Misc_cert" />
-      <option name="MAIN_CLASS_NAME" value="org.Misc_cert.Broken_link" />
-      <option name="METHOD_NAME" value="broken_links" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Max_mode.max_mode" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Misc_cert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.Misc_cert" />
-      <option name="MAIN_CLASS_NAME" value="org.Misc_cert.Max_mode" />
-      <option name="METHOD_NAME" value="max_mode" />
+      <option name="PACKAGE_NAME" value="org.Sel4" />
+      <option name="MAIN_CLASS_NAME" value="org.Sel4.Multi_Windows" />
+      <option name="METHOD_NAME" value="multiWindow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -172,6 +155,24 @@
       <option name="PACKAGE_NAME" value="org.Sel4_Locators" />
       <option name="MAIN_CLASS_NAME" value="org.Sel4.Sel_4_Locators" />
       <option name="METHOD_NAME" value="relLocators" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="child.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.child" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -199,18 +200,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.filterStream" />
-      <item itemvalue="TestNG.Broken_link.broken_links" />
-      <item itemvalue="TestNG.Max_mode.max_mode" />
+      <item itemvalue="TestNG.Multi_Windows.multiWindow" />
       <item itemvalue="TestNG.Sel_4_Locators.relLocators" />
+      <item itemvalue="TestNG.child.test" />
       <item itemvalue="TestNG.webTable_Sorting.webTable_Sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.child.test" />
+        <item itemvalue="TestNG.Multi_Windows.multiWindow" />
         <item itemvalue="TestNG.Sel_4_Locators.relLocators" />
         <item itemvalue="Application.filterStream" />
         <item itemvalue="TestNG.webTable_Sorting.webTable_Sort" />
-        <item itemvalue="TestNG.Broken_link.broken_links" />
-        <item itemvalue="TestNG.Max_mode.max_mode" />
       </list>
     </recent_temporary>
   </component>
@@ -302,6 +303,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/streams/webTable_Sorting.java</url>
           <line>22</line>
           <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Sel4/Multi_Windows.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
