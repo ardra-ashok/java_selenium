@@ -17,10 +17,10 @@ public class Broken_link {
     @Test
     public void broken_links() throws IOException {
         WebDriver webDriver = new ChromeDriver();
-        WebDriver driver=new ChromeDriver();
-        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 
-        List<WebElement> links=   driver.findElements(By.cssSelector("li[class='gf-li'] a"));
+        webDriver.get("https://rahulshettyacademy.com/AutomationPractice/");
+
+        List<WebElement> links=   webDriver.findElements(By.cssSelector("li[class='gf-li'] a"));
         SoftAssert a =new SoftAssert();
         for(WebElement link : links) {
             String url= link.getAttribute("href");
