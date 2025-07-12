@@ -494,11 +494,7 @@
       <change afterPath="$PROJECT_DIR$/../appium_refreshing/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../appium_refreshing/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../appium_refreshing/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Excel/dataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practise/Practise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practise/Practise_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practise/RestEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supportData/dataFiles/Book1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Excel/Download_Upload.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jenkins/jenkins.war" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test-automation-framework_1/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test-automation-framework_1/.idea/encodings.xml" afterDir="false" />
@@ -4484,11 +4480,6 @@
       <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Helpers/MobileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/Android/Helpers/MobileHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/javaBasics/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appium_refreshing/src/test/java/org/javaBasics/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Misc_cert/Broken_link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Misc_cert/Broken_link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testng/child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testng/child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/Misc_cert/Broken_link.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Misc_cert/Broken_link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testng/child.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng/child.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -4506,7 +4497,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -4535,6 +4526,7 @@
     "TestNG.Calender.calendarExample.executor": "Run",
     "TestNG.Calender.calendarSelect.executor": "Run",
     "TestNG.CheckBox.checkBoxExample.executor": "Run",
+    "TestNG.Download_Upload.download_Upload.executor": "Run",
     "TestNG.DropDown.DropDown.executor": "Run",
     "TestNG.Ecommerce.eCommerce.executor": "Run",
     "TestNG.Excercise.Excerice.executor": "Run",
@@ -4571,12 +4563,15 @@
     "TestNG.webTable_Sorting.webTable_Sort.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/aashok/IdeaProjects/java_selenium",
+    "last_opened_file_path": "/Users/aashok/IdeaProjects/java_selenium/src/main/java/Excel",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Excel" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/supportData/dataFiles" />
     </key>
@@ -4589,7 +4584,25 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.dataProvider.testCaseData">
+  <component name="RunManager" selected="TestNG.Download_Upload.download_Upload">
+    <configuration name="Download_Upload.download_Upload" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Excel" />
+      <option name="MAIN_CLASS_NAME" value="Excel.Download_Upload" />
+      <option name="METHOD_NAME" value="download_Upload" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practise_1.testComponents" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_selenium" />
       <extension name="coverage">
@@ -4601,24 +4614,6 @@
       <option name="PACKAGE_NAME" value="practise" />
       <option name="MAIN_CLASS_NAME" value="practise.Practise_1" />
       <option name="METHOD_NAME" value="testComponents" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practise.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practise" />
-      <option name="MAIN_CLASS_NAME" value="practise.Practise" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -4681,19 +4676,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.Download_Upload.download_Upload" />
       <item itemvalue="TestNG.dataProvider.getData" />
       <item itemvalue="TestNG.dataProvider.testCaseData" />
       <item itemvalue="TestNG.Practise_1.testComponents" />
-      <item itemvalue="TestNG.Practise.test" />
       <item itemvalue="TestNG.test.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Download_Upload.download_Upload" />
         <item itemvalue="TestNG.dataProvider.testCaseData" />
         <item itemvalue="TestNG.dataProvider.getData" />
         <item itemvalue="TestNG.test.test" />
         <item itemvalue="TestNG.Practise_1.testComponents" />
-        <item itemvalue="TestNG.Practise.test" />
       </list>
     </recent_temporary>
   </component>
@@ -4791,9 +4786,19 @@
           <line>29</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Excel/Download_Upload.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Excel/Download_Upload.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Excel/dataProvider.java</url>
-          <line>20</line>
+          <line>19</line>
           <properties class="Excel.dataProvider" method="testCaseData">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
